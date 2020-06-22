@@ -10,7 +10,10 @@ class App extends StatelessWidget {
     return MaterialApp(
       title: 'Srthk Portfolio',
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(brightness: Brightness.dark, fontFamily: 'GFont'),
+      theme: ThemeData(
+          brightness: Brightness.dark,
+          primaryColor: Colors.grey,
+          fontFamily: 'GFont'),
       home: PortfolioHome(),
     );
   }

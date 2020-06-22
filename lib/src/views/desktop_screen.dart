@@ -114,7 +114,10 @@ class DesktopScreen extends StatelessWidget {
               SizedBox(
                 height: 100,
               ),
-              txt('Have a Project Let\'s talk ↑', size: 70),
+              Padding(
+                padding: const EdgeInsets.only(left: 50),
+                child: txt('Have a Project Let\'s talk ↑', size: 50),
+              ),
               SizedBox(
                 height: 50,
               ),

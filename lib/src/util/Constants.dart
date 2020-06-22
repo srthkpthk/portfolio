@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'dart:html' as html;
+
 final String name = 'Srthk Pthk';
 final String educationIHave = 'Education Includes';
 final String aboutInfo =
@@ -19,17 +19,11 @@ final List<String> educationList = [
   'B.Tech \n\nG.L.Bajaj Group of Institutions   \nMathura\n2021',
 ];
 final List<String> projects = [
-  'Movies X \n\n A movie catalog app made using Flutter backed by TMDB API ',
-  'CoronaTiem  \n\n A CoronaVirus tracking app made using Flutter backed by www.covid19india.com\'s API ',
-  """CoronaTiem \n\nCoronaTiem is an App for Tracking Corona Virus Cases in India.The data is provided by https://www.covid19india.org\n
-• Offline Caching of Data using Room
-• Dependency Injection with Kodein-DI
-• Use of MVVM Pattern
-• Use of Groupie for recycler View
-• Use of DataBinding (with Groupie)
-• Dark Mode Support""",
-      'Weather App  \n\n Shows Current Weather and Forecast for your Current Location.',
-  '...etc',
+  "1.\t MoviesX \n\n **Info to be Updated**",
+  "2.\t CoronaTiem (Flutter) \n\nCoronaTiem is an App for Tracking Corona Virus Cases in India and According to States.The data is provided by https://www.covid19india.org\n\n• UsesBloc\n• UsesDio",
+  "3.\t CoronaTiem (Android)  \n\nCoronaTiem is an App for Tracking Corona Virus Cases in India.The data is provided by https://www.covid19india.org\n• Offline Caching of Data using Room\n• Dependency Injection with Kodein-DI\n• Use of MVVM Pattern\n• Use of Groupie for recycler View\n• Use of DataBinding (with Groupie)\n• Dark Mode Support",
+  "4. \t Weather App\n\nShows Current Weather and Forecast for your Current Location.\n• Only for Android\n• Uses Bloc",
+  "//TODO adding more..."
 ];
 
 Widget txt(String text, {double size}) => Text(
