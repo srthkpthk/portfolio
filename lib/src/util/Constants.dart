@@ -19,7 +19,7 @@ final List<String> educationList = [
   'B.Tech \n\nG.L.Bajaj Group of Institutions   \nMathura\n2021',
 ];
 final List<String> projects = [
-  'Movies x \n\n A movie catalog app made using Flutter backed by TMDB API ',
+  'Movies X \n\n A movie catalog app made using Flutter backed by TMDB API ',
   'CoronaTiem  \n\n A CoronaVirus tracking app made using Flutter backed by www.covid19india.com\'s API ',
   """CoronaTiem \n\nCoronaTiem is an App for Tracking Corona Virus Cases in India.The data is provided by https://www.covid19india.org\n
 • Offline Caching of Data using Room
@@ -28,7 +28,7 @@ final List<String> projects = [
 • Use of Groupie for recycler View
 • Use of DataBinding (with Groupie)
 • Dark Mode Support""",
-      'Weather App x \n\n Shows Current Weather and Forecast for your Current Location.',
+      'Weather App  \n\n Shows Current Weather and Forecast for your Current Location.',
   '...etc',
 ];
 

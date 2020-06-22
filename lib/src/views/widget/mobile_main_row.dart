@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/widgets.dart';
 import 'package:portfolio/src/util/Constants.dart';
 import 'package:portfolio/src/views/widget/profile_picture_widget.dart';
 
@@ -32,7 +33,10 @@ class MobileMainRow extends StatelessWidget {
           SizedBox(
             height: 10,
           ),
-          txt(aboutInfo, size: 20),
+          Padding(
+            padding: const EdgeInsets.only(left: 16),
+            child: txt(aboutInfo, size: 20),
+          ),
           SizedBox(
             height: 30,
           ),
@@ -52,7 +56,10 @@ class MobileMainRow extends StatelessWidget {
           SizedBox(
             height: 10,
           ),
-          buildCard(skillsList),
+          Padding(
+            padding: const EdgeInsets.only(left: 16),
+            child: buildCard(skillsList),
+          ),
           SizedBox(
             height: 10,
           ),
@@ -68,16 +75,37 @@ class MobileMainRow extends StatelessWidget {
           SizedBox(
             height: 10,
           ),
-          buildCard(educationList),
+          Padding(
+              padding: const EdgeInsets.only(left: 16),
+              child: buildCard(educationList)),
           SizedBox(
             height: 30,
           ),
           txt('Projects.', size: 40),
-          buildCard(projects),
+          Padding(
+              padding: const EdgeInsets.only(left: 16),
+              child: buildCard(projects)),
+          SizedBox(
+            height: 30,
+          ),
+          txt('Have a Project Let\'s Talk 🠒', size: 25),
           SizedBox(
             height: 30,
           ),
 
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 16),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                txt('That\'s all Folks...', size: 16),
+                txt('Copyright Srthk Pthk')
+              ],
+            ),
+          ),
+          SizedBox(
+            height: 20,
+          ),
         ],
       ),
     );

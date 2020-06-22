@@ -6,25 +6,23 @@ import 'package:flutter/material.dart';
 class SocialBarWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Row(
-        children: [
-          _buildSocialButton(
-              "https://www.linkedin.com/in/srthk-pthk-7a673a170/",
-              "LINKEDIN",
-              Color.fromRGBO(72, 117, 180, 1)),
-          _buildSocialButton("https://www.facebook.com/srthkpthk", "FACEBOOK",
-              Color.fromRGBO(59, 89, 152, 1)),
-          _buildSocialButton("https://github.com/srthkpthk", "GITHUB",
-              Color.fromRGBO(33, 31, 31, 1)),
-          _buildSocialButton("https://www.instagram.com/mr_insomaniac/",
-              "INSTAGRAM", Color.fromRGBO(193, 53, 132, 1)),
-          _buildSocialButton("https://twitter.com/SrthkPthk", "TWITTER",
-              Color.fromRGBO(0, 172, 237, 1)),
-          _buildSocialButton("https://mail.google.com/mail/?view=cm&fs=1&to=srthk.pthk4@gmail.com", "GMAIL",
-              Color.fromRGBO(178, 49, 33, 1))
-        ],
-      ),
+    return Row (
+      children: [
+        _buildSocialButton("https://www.linkedin.com/in/srthk-pthk-7a673a170/",
+            "LINKEDIN", Color.fromRGBO(72, 117, 180, 1)),
+        _buildSocialButton("https://www.facebook.com/srthkpthk", "FACEBOOK",
+            Color.fromRGBO(59, 89, 152, 1)),
+        _buildSocialButton("https://github.com/srthkpthk", "GITHUB",
+            Color.fromRGBO(33, 31, 31, 1)),
+        _buildSocialButton("https://www.instagram.com/mr_insomaniac/",
+            "INSTAGRAM", Color.fromRGBO(193, 53, 132, 1)),
+        _buildSocialButton("https://twitter.com/SrthkPthk", "TWITTER",
+            Color.fromRGBO(0, 172, 237, 1)),
+        _buildSocialButton(
+            "https://mail.google.com/mail/?view=cm&fs=1&to=srthk.pthk4@gmail.com",
+            "GMAIL",
+            Color.fromRGBO(178, 49, 33, 1))
+      ],
     );
   }
 }
