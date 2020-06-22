@@ -99,7 +99,7 @@ class MobileMainRow extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 txt('That\'s all Folks...', size: 16),
-                txt('Copyright Srthk Pthk')
+                txt('© Copyright Srthk Pthk')
               ],
             ),
           ),

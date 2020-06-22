@@ -127,7 +127,7 @@ class DesktopScreen extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     txt('That\'s all Folks...', size: 40),
-                    txt('Copyright Srthk Pthk')
+                    txt('© Copyright Srthk Pthk')
                   ],
                 ),
               ),

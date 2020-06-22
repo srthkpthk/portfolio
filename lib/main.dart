@@ -12,7 +12,7 @@ class App extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
           brightness: Brightness.dark,
-          primaryColor: Colors.grey,
+          primaryColorDark: Colors.grey,
           fontFamily: 'GFont'),
       home: PortfolioHome(),
     );
