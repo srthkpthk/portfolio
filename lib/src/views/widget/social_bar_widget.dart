@@ -32,7 +32,7 @@ Widget _buildSocialButton(String url, String text, Color color) {
     padding: const EdgeInsets.symmetric(horizontal: 6),
     child: FlatButton(
         hoverColor: color,
-        color: Colors.grey.shade800,
+        color: color.withOpacity(.3),
         shape: RoundedRectangleBorder(
           borderRadius: BorderRadius.circular(4),
         ),
