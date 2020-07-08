@@ -18,6 +18,7 @@ final List<String> projects = [
   "3.\t CoronaTiem (Android)  \n\nCoronaTiem is an App for Tracking Corona Virus Cases in India.The data is provided by https://www.covid19india.org\n• Offline Caching of Data using Room\n• Dependency Injection with Kodein-DI\n• Use of MVVM Pattern\n• Use of Groupie for recycler View\n• Use of DataBinding (with Groupie)\n• Dark Mode Support",
   "4. \t Weather App\n\nShows Current Weather and Forecast for your Current Location.\n• Only for Android\n• Uses Bloc",
   "5. \t SplitWise SDK for Dart\n\nA SDK based on Splitwise API",
+  "6. \t Sms Forwarder\n A simple App to forward all incoming sms to a Phone Number \n• Does not forward Class 0 messages",
       "//TODO adding more..."
 ];
 
