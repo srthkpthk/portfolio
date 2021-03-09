@@ -22,7 +22,7 @@ final List<String> projects = [
       "//TODO adding more..."
 ];
 
-Widget txt(String text, {double size}) => Text(
+Widget txt(String text, {double? size}) => Text(
       text,
       style: TextStyle(fontSize: size),
     );
