@@ -1,12 +1,18 @@
 import 'package:flutter/material.dart';
 
-final String name = 'Sarthak';
+final String name = 'Srthk Pthk';
 final String educationIHave = 'Education Includes';
 final String aboutInfo =
     'I\'m a Focused student having excellent technical and communication skills, having keen interest in Computer industry. Proficient at designing and writing code in various languages, feature development and implementation. Specialize in thinking out of the box and unique solutions to difficult engineering problems.';
 final String hiIm = 'Hi I\'m';
 final String someSkillsInclude = 'Some Skills I have include';
-final List<String> skillsList = ['Java', 'Kotlin', 'Dart', 'Flutter', 'Photoshop'];
+final List<String> skillsList = [
+  'Java',
+  'Kotlin',
+  'Dart',
+  'Flutter',
+  'Photoshop'
+];
 final List<String> educationList = [
   '10th \n\nBlue Bird Sen. Sec. School \nAligarh\n2015',
   '12th \n\nBlue Bird Sen. Sec. School \nAligarh\n2017',
