@@ -95,13 +95,7 @@ class MobileMainRow extends StatelessWidget {
 
           Padding(
             padding: const EdgeInsets.symmetric(horizontal: 16),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                txt('That\'s all Folks...', size: 16),
-                txt('© Copyright Srthk Pthk')
-              ],
-            ),
+           child: txt("This is a sample website made in flutter on 22nd June 2020"),
           ),
           SizedBox(
             height: 20,
