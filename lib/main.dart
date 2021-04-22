@@ -15,6 +15,7 @@ class App extends StatelessWidget {
           primaryColorDark: Colors.grey,
           fontFamily: 'GFont'),
       home: PortfolioHome(),
+
     );
   }
 }
